@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-FASTAPI_URL = "http://localhost:8000"  # change after deployment
+FASTAPI_URL = "https://fake-news-detector-and-generator.onrender.com" 
 
 st.set_page_config(page_title="Fake News Generator & Detector", layout="centered")
 
