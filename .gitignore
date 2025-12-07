@@ -39,9 +39,9 @@ ENV/
 # Model Folders
 # (Ignore large weights inside them)
 # -------------------------
-models/*/*.bin
+# models/*/*.bin
 models/*/*.pt
-models/*/*.safetensors
+# models/*/*.safetensors
 
 # -------------------------
 # OS & Editor junk
