@@ -23,9 +23,9 @@ ENV/
 # PyTorch / Transformers Models
 # (Ignore large model binaries but allow config/tokenizer files)
 # -------------------------
-*.bin
+# *.bin
 *.pt
-*.safetensors
+# *.safetensors
 
 # Allow HuggingFace small files
 !config.json
