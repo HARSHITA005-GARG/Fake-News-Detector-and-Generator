@@ -1,0 +1,67 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.log
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter / Kaggle artifacts
+.ipynb_checkpoints/
+*.ipynb
+
+# -------------------------
+# PyTorch / Transformers Models
+# (Ignore large model binaries but allow config/tokenizer files)
+# -------------------------
+*.bin
+*.pt
+*.safetensors
+
+# Allow HuggingFace small files
+!config.json
+!tokenizer.json
+!tokenizer_config.json
+!vocab.txt
+!special_tokens_map.json
+!merges.txt
+
+# -------------------------
+# Model Folders
+# (Ignore large weights inside them)
+# -------------------------
+models/*/*.bin
+models/*/*.pt
+models/*/*.safetensors
+
+# -------------------------
+# OS & Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+
+# -------------------------
+# Render / Deployment / Pip
+# -------------------------
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
