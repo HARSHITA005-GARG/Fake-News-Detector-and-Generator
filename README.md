@@ -84,7 +84,7 @@ Label mapping:
 - `1` → FAKE  
 
 Performance:
-![Performance image](images\image.png)
+![Performance image](images/image.png)
 
 
 ---
