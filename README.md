@@ -132,6 +132,10 @@ http://localhost:8501
 Pull requests are welcome!
 Enhancements: UI improvements, dataset expansion, Docker support, etc.
 
-## 📄 License
+---
 
-Open-source under the MIT License.
+## 📝 License
+
+This project is released under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this software as permitted by the license terms.
+
