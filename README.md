@@ -1,8 +1,4 @@
 # 📰 Fake News Generator & Detector  
-### GPT-2 Fake News Generator + DistilBERT Fake News Classifier  
-### FastAPI Backend + Streamlit Frontend + Full Deployment Guide
-
----
 
 ## 📌 Overview
 
@@ -33,7 +29,7 @@ This repository is suitable for **academic submissions, ML portfolios, and real-
 ### 🔷 End-to-End Pipeline
 Input prompt → Generate headlines → Detect fake/real → Return predictions + confidence
 
-### 🔶 FastAPI Backend : <a href="https://fake-news-detector-and-generator.onrender.com/docs"> https://fake-news-detector-and-generator.onrender.com/ </a>
+### 🔶 FastAPI Backend : <a href="https://fake-news-detector-and-generator.onrender.com/docs"> https://fake-news-detector-and-generator.onrender.com/docs </a>
 Programmatic API with auto-generated Swagger docs.
 
 Endpoints:
